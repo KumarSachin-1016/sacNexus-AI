@@ -66,6 +66,6 @@ app.post("/upload",upload.single("pdf"),async (req, res) => {
 
 // Start Express server
 
-app.listen(port,"127.0.0.1", () => {
+app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
 });

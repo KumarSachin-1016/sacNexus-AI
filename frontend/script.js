@@ -110,7 +110,7 @@ async function generate(text) {
 // Function for calling server
 
 async function callServer(inputText) {
-  const response = await fetch("http://127.0.0.1:3000/chat", {
+  const response = await fetch("https://sacnexus-ai-backend.onrender.com/chat", {
     method: "POST",
     headers: {
       "content-type": "application/json",
@@ -169,7 +169,7 @@ async function uploadPdf(){
   try{
 
   const response = await fetch(
-    "http://127.0.0.1:3000/upload",
+    "https://sacnexus-ai-backend.onrender.com/upload",
     {
       method: "POST",
       body: formData,

@@ -80,7 +80,7 @@ npm install
 
 ```bash
 cd backend
-npm install
+npm install --legacy-peer-deps
 ```
 
 ---
@@ -103,7 +103,13 @@ PINECONE_INDEX_NAME=your_index_name
 ### Start Backend
 
 ```bash
-npm run dev
+node server.js
+```
+
+### For Development
+
+```bash
+nodemon server.js
 ```
 
 ### Start Frontend

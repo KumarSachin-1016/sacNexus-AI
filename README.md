@@ -17,6 +17,18 @@ AI-powered company chatbot that answers questions from dynamically uploaded PDF 
 
 ---
 
+## 🚀 Live Demo
+
+🔗 https://sacnexus-ai.vercel.app
+
+---
+
+## 📸 Screenshots
+
+<img width="100%" alt="Chat" src="./screenshots/Chat.png"/>
+
+---
+
 ## 🛠️ Tech Stack
 
 ### Frontend

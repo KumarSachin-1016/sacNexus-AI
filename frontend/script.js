@@ -110,7 +110,7 @@ async function generate(text) {
 // Function for calling server
 
 async function callServer(inputText) {
-  const response = await fetch("https://sacnexus-ai-backend.onrender.com/chat", {
+    const response = await fetch("https://sacnexus-ai-backend.onrender.com/chat", {
     method: "POST",
     headers: {
       "content-type": "application/json",
